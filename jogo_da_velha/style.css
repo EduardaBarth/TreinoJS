@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+table{
+    border: 2px solid blue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+td{
+    border: 2px solid blue;
+    width: 30vh;
+    height: 30vh;
+}
+td:hover{
+    background-color: black;
+}

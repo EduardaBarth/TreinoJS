@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JOGO DA VELHA</h1>
+    <table>
+        <tr>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+        </tr>
+        <tr>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+            <td onclick="marcar(this)"></td>
+        </tr>
+    </table>
+    <script>
+        var player = "X"
+        function marcar(td) {
+            if (td.innerHTML) return
+            td.innerHTML = player
+            player = player === "X" ? "O" : "X"
+        }
+    </script>
+    
+</body>
+</html>
