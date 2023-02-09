@@ -1,0 +1,15 @@
+*{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: bisque;
+}
+td{
+    border: 5px solid black;
+    border-radius: 20%;
+    height: 30vh;
+    width: 30vh;
+    background-color: brown;
+    font-size: 30px;
+    text-align: center;
+}
