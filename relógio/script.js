@@ -7,8 +7,8 @@ function startTime(){
     m = checkTime(m);
     s = checkTime(s);
 
-    document.getElementById("1").innerHTML =  h + ":" ;
-    document.getElementById("2").innerHTML = m + ":"
+    document.getElementById("1").innerHTML =  h
+    document.getElementById("2").innerHTML = m
     document.getElementById("3").innerHTML = s
     setTimeout(startTime, 1000);
 }
