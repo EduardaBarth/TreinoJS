@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+body{
+    background-color: #23A5D9;
+    text-align: center;
+}
+.remained{
+    background-color: aliceblue;
+    width: 150px;
+    height: 300px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border: 5px solid #215BA6;
+    margin-left: 44%;
+}
+.cups{
+    color: #215BA6;
+    width: 100vw;
+ align-items: center;
+}
+.cups :hover{
+    color: #215BA6;
+}
+.cup-cup-small{
+    background-color: aliceblue;
+}
